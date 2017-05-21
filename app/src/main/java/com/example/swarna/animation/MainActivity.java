@@ -18,6 +18,7 @@ private TextView textView,textView1;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
         setContentView(R.layout.activity_main);
         textView = (TextView) findViewById(R.id.txt1);
         animFadein = AnimationUtils.loadAnimation(this, R.anim.fadein);
